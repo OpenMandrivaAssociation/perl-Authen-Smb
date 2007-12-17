@@ -10,7 +10,6 @@ Group:		Development/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{module}-%{version}.tar.gz
 Patch0:		Authen-Smb-0.91-64bit-fixes.patch
 BuildRequires:	perl-devel >= 5.6
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 Authen::Smb is a Perl module to authenticate against an SMB server.
