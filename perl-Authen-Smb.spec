@@ -3,7 +3,7 @@
 Summary:	Perl extension to authenticate against an SMB server
 Name:		perl-%module
 Version:	0.91
-Release:	%mkrel 8
+Release:	%mkrel 9
 License:	GPL
 Url:		http://search.cpan.org/dist/%module/
 Group:		Development/Perl
