@@ -4,7 +4,7 @@
 Summary:	Perl extension to authenticate against an SMB server
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	10
+Release:	11
 License:	GPLv2
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}/
