@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    9
+Release:    10
 
 Summary:	Perl extension to authenticate against an SMB server
 License:	GPL
