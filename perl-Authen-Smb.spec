@@ -17,7 +17,7 @@ Authen::Smb is a Perl module to authenticate against an SMB server.
 
 %prep
 %setup -qn %{upstream_name}-%{upstream_version}
-%apply_patches
+%autopatch -p1
 
 %build
 CFLAGS="$RPM_OPT_FLAGS" %{__perl} Makefile.PL INSTALLDIRS=vendor
