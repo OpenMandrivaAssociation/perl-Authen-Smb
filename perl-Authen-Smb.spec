@@ -7,7 +7,7 @@ Version:	%perl_convert_version %{upstream_version}
 Release:	22
 License:	GPLv2
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}/
+Url:		https://search.cpan.org/dist/%{upstream_name}/
 Source0:	http://www.cpan.org/modules/by-module/Authen/%{upstream_name}-%{upstream_version}.tar.gz
 Patch0:		Authen-Smb-0.91-64bit-fixes.patch
 BuildRequires:	perl-devel >= 5.6
