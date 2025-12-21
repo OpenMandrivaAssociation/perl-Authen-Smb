@@ -10,6 +10,7 @@ Group:		Development/Perl
 Url:		https://search.cpan.org/dist/%{upstream_name}/
 Source0:	http://www.cpan.org/modules/by-module/Authen/%{upstream_name}-%{upstream_version}.tar.gz
 Patch0:		Authen-Smb-0.91-64bit-fixes.patch
+BuildRequires:	make
 BuildRequires:	perl-devel >= 5.6
 
 %description
