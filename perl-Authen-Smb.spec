@@ -2,7 +2,7 @@
 Summary:	Perl extension to authenticate against an SMB server
 Name:		perl-%{upstream_name}
 Version:	0.91
-Release:	25
+Release:	26
 License:	GPLv2
 Group:		Development/Perl
 Url:		https://metacpan.org/dist/Authen-Smb
