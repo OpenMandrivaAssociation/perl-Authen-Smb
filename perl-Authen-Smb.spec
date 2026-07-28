@@ -2,7 +2,7 @@
 Summary:	Perl extension to authenticate against an SMB server
 Name:		perl-%{upstream_name}
 Version:	0.91
-Release:	24
+Release:	25
 License:	GPLv2
 Group:		Development/Perl
 Url:		https://metacpan.org/dist/Authen-Smb
@@ -19,6 +19,9 @@ Authen::Smb is a Perl module to authenticate against an SMB server.
 %autopatch -p1
 
 %build
+# old XS: clang defaults to -Werror=implicit-function-declaration
+export CFLAGS="${CFLAGS:-%{optflags}} -Wno-error=implicit-function-declaration -Wno-implicit-function-declaration"
+export CXXFLAGS="${CXXFLAGS:-%{optflags}} -Wno-error=implicit-function-declaration -Wno-implicit-function-declaration"
 CFLAGS="$RPM_OPT_FLAGS" %{__perl} Makefile.PL INSTALLDIRS=vendor
 make
 make test
